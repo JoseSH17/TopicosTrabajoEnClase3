@@ -1,0 +1,37 @@
+﻿@model Trabajo3MVC.Models.MyMath
+@{
+    ViewBag.Title = "Result";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Result</h2>
+<div>
+    <h4>MyMath</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberOne)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumberOne)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberTwo)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NumberTwo)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Multiply)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Multiply)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Result)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Result)
+        </dd>
+    </dl>
+</div>
